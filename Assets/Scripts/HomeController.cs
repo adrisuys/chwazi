@@ -84,4 +84,9 @@ public class HomeController : MonoBehaviour
             catchPhrase.text = "How many team do you want?";
         }
     }
+
+    public void OpenCoinScene()
+    {
+        SceneManager.LoadScene(2);
+    }
 }
